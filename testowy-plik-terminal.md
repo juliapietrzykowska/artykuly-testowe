@@ -1,0 +1,1 @@
+# Plik zrobiony z terminala
