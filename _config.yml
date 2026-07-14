@@ -1,2 +1,7 @@
 title: "Mój Blog"
+description: "Osobisty blog o nauce, odkrywaniu nowych rzeczy i pisaniu"
 theme: minima
+
+header_pages:
+  - artykuly.md
+  - faq.md

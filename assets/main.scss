@@ -1,0 +1,57 @@
+---
+---
+
+@charset "utf-8";
+
+// Ciepła, przytulna paleta kolorów
+$background-color: #fdf6f0;
+$text-color:       #3d2b1f;
+$brand-color:      #c9703f;
+$grey-color:       #8a7568;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 20%);
+
+$base-line-height: 1.6;
+
+@import "minima";
+
+// Nagłówki w cieplejszym, bardziej "blogowym" kroju
+h1, h2, h3, .site-title, .post-title, .page-heading {
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+.site-header {
+  border-top: 5px solid $brand-color;
+  border-bottom: 1px solid $grey-color-light;
+}
+
+.site-title,
+.site-title:visited {
+  color: $text-color;
+}
+
+.site-nav .page-link {
+  color: $text-color;
+}
+
+a {
+  color: $brand-color;
+}
+
+a:visited {
+  color: darken($brand-color, 10%);
+}
+
+a:hover {
+  color: darken($brand-color, 15%);
+  text-decoration: underline;
+}
+
+.post-list > li {
+  padding: $spacing-unit / 2 0;
+  border-bottom: 1px solid $grey-color-light;
+}
+
+.footer-heading {
+  color: $text-color;
+}
